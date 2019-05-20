@@ -1,0 +1,187 @@
+body {
+	margin: auto;
+	margin-top: 0vw;
+	padding: 0vw;
+	width: 100%;
+	font-family: 'News Cycle', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0vw;
+	width: 100%;
+	height: 10vw;
+	background-color: black;
+	z-index: 7;
+	margin: auto;
+}
+header h1 { 
+	margin-right: 0vw;
+	width: 23vw;
+	margin-top: 3vw;
+	font-size: 3vw;
+	color: white;
+	float: left;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+nav ul {
+	margin-right: 3vw;
+	float: right;
+	font-size: 2.5vw;
+	margin-top: 3vw;
+}
+nav ul li {
+	display: inline-block;
+	font-size: 2vw;
+	margin: 0.5vw;
+	margin-left: 1vw;
+}
+
+
+audio:first-of-type {
+	position: fixed;
+	top: 11vw;
+	right: 0vw;	
+	width: 32vw;
+	z-index: 10;
+}
+
+body>div:first-of-type {
+	background-image: url(../img/cabecerapeces.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 8vw;
+	font-size: 0.5vw;
+	width: 100%;
+	height: 40vw;
+	z-index: 5;
+}
+div:first-of-type {
+	color: white;
+	font-size: 3.5vw;
+	padding-left: 0vw;
+	z-index: 6;
+}
+div:first-of-type h2 {
+	color: white;
+	font-size: 2.4vw;
+	margin-left: 5vw;
+	padding-top: 30vw;
+	font-family: 'Dancing Script', cursive;
+}
+div:first-of-type p {
+	margin-left: 5vw;
+	font-size: 2vw;
+	color: white;
+}
+body>div:first-of-type p {
+		font-size: 1.5vw;
+}
+
+
+div:nth-of-type(2) h2 {
+	font-size: 2.5vw;
+	margin-top: 2vw;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+div:nth-of-type(2) section {
+	width: 30vw;
+	height: 25vw;
+	float:left;
+	margin: 0.5vw 1.5vw 1vw 2vw;
+}
+div:nth-of-type(2) section:first-of-type img:first-of-type {
+	height: 16.8vw;
+}
+div:nth-of-type(2) section:first-of-type {
+	margin-left: 18vw;
+}
+div:nth-of-type(2) section:nth-of-type(3) {
+	margin-left: 18vw;
+}
+div:nth-of-type(2) section img {
+	width: 100%
+}
+div:nth-of-type(2) section p{
+	text-align: center;
+	font-size: 1.7vw;
+}
+
+
+div:nth-of-type(3) h2 {
+	clear: both;
+	font-size: 2.5vw;
+	margin-bottom: -1vw;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+div ul {
+	list-style: none;
+	margin-left: -3vw;
+	text-align: center;
+	font-size: 1.7vw;
+}
+div ul li a {
+	margin-top: 0vw;
+	color: black; 
+	text-decoration: none;
+}
+
+div ul li a:link{
+	color: black;
+}
+div ul li a:visited {
+	color: red;
+}
+div ul li a:hover{
+	color: darkblue;
+}
+
+div:nth-of-type(4) h2 {
+	text-align: center;
+	font-size: 2.5vw;
+	margin-top: 2vw;
+	font-family: 'Dancing Script', cursive;
+}	
+div:nth-of-type(4) div {
+	margin-left: 15vw;
+}
+div:nth-of-type(4) div:first-of-type iframe {
+	width: 20vw;
+	height: 17vw;
+	margin-left: 2vw;
+}
+
+footer {
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	height: 15vw;
+	background-color: black;
+}
+footer p {
+	margin-top: 2vw;
+	text-align: center;
+	font-size: 1.6vw;
+	color: white;
+}
+footer h3 {
+	margin-left: 45vw;
+	padding-top: 1.5vw;
+	font-size: 2vw;
+	color: white;
+}
+footer a:first-of-type {
+	margin-left: 41vw; 
+}
+footer a {
+	margin-left: 2vw;
+}

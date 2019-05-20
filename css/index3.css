@@ -1,0 +1,145 @@
+body {
+	margin: auto;
+	margin-top: 0vw;
+	width: 100%;
+	height: 100%;
+	font-family: 'News Cycle', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0vw;
+	width: 100%;
+	height: 10vw;
+	background-color: black;
+	z-index: 7;
+	margin: auto;
+}
+header h1 { 
+	margin-right: 0vw;
+	width: 23vw;
+	margin-top: 3vw;
+	font-size: 3vw;
+	color: white;
+	float: left;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+nav ul {
+	margin-right: 3vw;
+	float: right;
+	font-size: 2.5vw;
+	margin-top: 3vw;
+}
+nav ul li {
+	display: inline-block;
+	font-size: 2vw;
+	margin: 0.5vw;
+	margin-left: 1vw;
+}
+
+
+div:first-of-type {
+	width: 100%;
+	height: 120vw;
+	padding-top: 10vw;
+	background-image: url(../img/contacto.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.8;
+	z-index: 5;
+	padding-bottom: 0vw;
+}
+div:first-of-type h1 {
+	font-size: 4vw;
+	text-align: center;
+	color: black;
+	z-index: 6;
+	opacity: 1.7;
+	font-family: 'Dancing Script', cursive;
+}
+div:first-of-type p {
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 2vw;
+}
+div:first-of-type ul {
+	margin-left: -3vw;
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 2vw;
+	list-style: none;
+}
+div:first-of-type iframe {
+	width: 70vw;
+	height: 25vw;
+	margin-top: 3vw;
+	margin-left: 15vw;
+}
+div:first-of-type form input {
+	width: 27vw;
+	height: 2vw;
+	margin-top: 0.5vw;
+}
+div:first-of-type form textarea {
+	margin-top: 1.3vw;
+	width: 27vw;
+	height: 3vw;
+}
+div:first-of-type form:first-of-type {
+	color: white;
+	float: left;
+	width: 30vw;
+	height: 29vw;
+	margin-left: 15vw;
+	margin-top: 4vw;
+}
+div:first-of-type form:nth-of-type(2) {
+	color: white;
+	float: right;
+	width: 30vw;
+	height: 30vw;
+	margin-right: 15vw;
+	margin-top: 4vw;
+}
+div:first-of-type form:nth-of-type(2) input {
+	height: 3vw;
+	margin-bottom: 1vw;
+}
+div:first-of-type form:nth-of-type(2) textarea {
+	height: 6.7vw;
+}
+
+
+footer {
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	height: 5%;
+	background-color: black;
+	margin-top: -2vw;
+}
+footer p {
+	margin-top: 2vw;
+	text-align: center;
+	font-size: 1.6vw;
+	color: white;
+}
+footer h3 {
+	margin-left: 45vw;
+	padding-top: 1.5vw;
+	font-size: 2vw;
+	color: white;
+}
+footer a:first-of-type {
+	margin-left: 41vw; 
+}
+footer a {
+	margin-left: 2vw;
+}

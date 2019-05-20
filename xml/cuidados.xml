@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cuidados.xsl"?>
+
+<cuidados>
+  <cuidado>
+    <h2>Cuidado de los peces.</h2>
+    <p>Si tomas la decisión de tener peces en casa debes tener claro que el cuidado de estos pequeños animales no puede tomarse a la ligera por lo que te proporcionaré cuales son las condiciones ambientales más eficaces para que su desarrollo sea satisfactorio.<br></br></p>
+    <ul>
+      <li>
+      <h4>Pecera:</h4>
+      <p>Al momento de adquirir una pecera o acuario te puedes dirigir a tiendas de mascotas donde te pueden orientar para escoger el que mejor se adapte a ti, a los peces que cuidarás y a tu presupuesto, pero por lo general se recomienda que la pecera que escojas tenga una capacidad de 90 litros de agua aproximadamente y que su forma no sea  redonda pues este tipo tiende a una mala oxigenación, además de que cuente con un calentador que mantenga la temperatura adecuada (dependiendo del tipo de pez)</p>
+      </li>
+      <li>
+      <h4>Filtro:</h4>
+      <p>De todos los filtros que existan en el mercado el que más se recomienda es el biológico ya que permite que los residuos existentes se descompongan y que el amoniaco se pueda evitar.<br/>La grava también se puede utilizar como filtro y además de eso ayuda a que las plantas que existan en las peceras se puedan conservar. Si la elegimos un tono más oscuro los colores de los peces se notarán aún más.</p>
+      </li>
+			<li>
+			<h4>Iluminación:</h4>
+			<p>Con la iluminación podemos jugar un poco ya que el color que elijamos resaltará aún más la belleza de los colores en los peces. Por eso te recomendamos luces fluorescentes que no afecten mucho la temperatura.<br/>También, la iluminación dependerá si en la pecera tendremos plantas o no. Si las tenemos es mejor escoger son las luces incandescentes que ayuden a su crecimiento.</p>
+			</li>
+			<li>
+			<h4>Agua:</h4>
+			<p>El agua es una de las cosas más importantes que debemos tomar en cuenta. Aunque lo más fácil es tomar agua directamente del grifo  esta no es la más adecuada para los peces, pues posee cloro que afecta directamente a los peces, por lo que debemos de tomarnos en serio la tarea de renovar el agua frecuentemente.<br/>
+			Asimismo, el agua dependerá de la clase de pez que tengamos en casa ya que cada una deberá tener el grado de Ph y la temperatura adecuada.</p>
+			</li>
+    </ul>
+  </cuidado>
+</cuidados>

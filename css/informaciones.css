@@ -1,0 +1,296 @@
+body {
+	margin: auto;
+	margin-top: 11vw;
+	padding: 0vw;
+	width: 100%;
+	height: 100%;
+	font-family: 'News Cycle', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0vw;
+	width: 100%;
+	height: 10vw;
+	background-color: black;
+	z-index: 7;
+	margin: auto;
+}
+header h1 { 
+	margin-right: 0vw;
+	width: 23vw;
+	margin-top: 3vw;
+	font-size: 3vw;
+	color: white;
+	float: left;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+nav ul {
+	margin-right: 3vw;
+	float: right;
+	font-size: 2.5vw;
+	margin-top: 3vw;
+}
+nav ul li {
+	display: inline-block;
+	font-size: 2vw;
+	margin: 0.5vw;
+	margin-left: 1vw;
+}
+
+
+
+div:first-of-type{
+	width: 56vw;
+    height: 64vw;
+	float: left;
+	margin-top: 0vw;
+}
+div:first-of-type article {
+	width: 56vw;
+	height: 62vw;
+}
+div:first-of-type article img:first-of-type {
+	margin-left: 10vw;
+	width: 38vw;
+	height: 22vw;
+}
+div:first-of-type article h2 {
+	margin-left: 15vw;
+	margin-top: 0.5vw;
+	margin-bottom: 1vw;
+	font-size: 2vw;
+	font-family: 'Dancing Script', cursive;
+}
+div:first-of-type article p {
+	margin-top: 0vw;
+	margin-left: 10vw;
+	font-size: 1.3vw;
+	width: 40vw;
+}
+
+div:first-of-type article div:first-of-type {
+	width: 56vw;
+	height: 26.5vw;
+}
+div:first-of-type article div:first-of-type div:first-of-type {
+	width: 56vw;
+	height: 21vw;
+	margin-left: 1vw;
+}
+div:first-of-type article div:first-of-type div:first-of-type img {
+	width: 35vw;
+	height: 20vw;
+	margin-left: 11vw;
+}
+div:first-of-type article div:first-of-type div:nth-of-type(2) {
+	width: 45vw;
+	height: 4vw;
+	margin-left: 9vw;
+	margin-top: 22vw;
+	position: both;
+}
+div:first-of-type article div:first-of-type div:nth-of-type(2) img {
+	width: 3vw;
+	height: 3vw;
+	margin-right: 1vw;
+}
+.botones {
+	display: flex;
+}
+.centrado {
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+div:first-of-type div:first-of-type {
+	width: 80vw;
+	height: 22vw;
+	margin-top: 0vw;
+	margin-left: 0vw;
+}
+div:first-of-type div h2 {
+	margin-left: 20vw;
+	margin-top: 1vw;
+	font-size: 2vw;
+	font-family: 'Dancing Script', cursive;
+}
+div:first-of-type div section {
+	width: 20vw;
+	height: auto;
+	float: left;
+	margin-top: 0vw;
+	text-align: center;
+	margin-left: 1vw;
+}
+div:first-of-type div section a img {
+	width: 16vw;
+	height: 9vw;
+	margin-left: 4vw;
+	margin-top: 0.5vw;
+}
+div:first-of-type div section:nth-of-type(2) a img {
+	margin-left: -1vw; 
+}
+div:first-of-type div section:nth-of-type(3) a img {
+	margin-left: -6vw;
+}
+div:first-of-type div section:first-of-type p {
+	width: 15vw;
+	margin-left: 4.3vw;
+}
+div:first-of-type div section:nth-of-type(2) p {
+	margin-left: 1.8vw;
+	width: 15vw;
+}
+div:first-of-type div section:nth-of-type(3) p {
+	margin-left: -0.7vw;
+	width: 15vw;
+}
+
+
+
+
+
+
+
+div:nth-of-type(2) {
+	height: 64vw;
+	width: 50%;
+}
+
+aside {
+	width: 50vw;
+	height: 64vw;
+	position: absolute;
+	right: 0vw;
+	margin-top: 0.5vw;
+}
+aside div:first-of-type {
+	position: top;
+	width: 50vw;
+	height: 18vw;
+	z-index: 3;
+}
+aside div:first-of-type img {
+	width: 7vw; 
+	height: 7.5vw; 
+	margin-left: 23vw;
+}
+aside div:first-of-type h2 {
+	margin-left: 18vw;
+	font-size: 2vw;
+	margin-top: 1vw;
+}
+aside div:first-of-type p {
+	margin-left: 3vw;
+	width: 50vw;
+	font-size: 1.1vw;
+	text-align: center;
+}
+aside div:first-of-type p a {
+	color: black;
+}
+aside hr {
+	margin-bottom: 2.3vw;
+	margin-top: 23vw;
+	width: 38vw;
+	margin-left: 10vw;
+}
+aside div:nth-of-type(2) {
+	width: 100%;
+}
+aside div:nth-of-type(2) h2 {
+	width: 100%;
+	font-size: 1.6vw;
+	margin-left: 16.5vw;
+}
+aside div:nth-of-type(2) p {
+	font-size: 1.2vw;
+	text-align: center;
+	margin-left: 8vw;
+}
+aside div:nth-of-type(2) form:first-of-type {
+	margin-left: 18vw;
+	font-size: 2.5vw;
+}
+aside div:nth-of-type(2) form:first-of-type input {
+	width: 20vw;
+	height: 2vw;
+}
+aside div:nth-of-type(2) form:first-of-type textarea {
+	margin-top: 1vw;
+	width: 20vw;
+	height: 5vw;
+}
+
+aside div:nth-of-type(2) hr {
+	margin-bottom: 2.3vw;
+	margin-top: 2.3vw;
+	width: 38vw;
+	margin-left: 10vw;
+}
+
+aside div:nth-of-type(2) form:nth-of-type(2) h2 {
+	width: 30vw;
+	color: black;
+	font-size: 1.6vw;
+	margin-top: 1.5vw;
+	margin-left: 21vw;
+	margin-bottom: 1.7vw;
+}
+aside div:nth-of-type(2) form:nth-of-type(2) fieldset {
+	margin-left: 14vw;
+	width: 20vw;
+}
+aside div:nth-of-type(2) form:nth-of-type(2) fieldset input {
+	width: 30vw;
+	height: 2vw;
+}
+aside div:nth-of-type(2) form:nth-of-type(2) textarea {
+	width: 30vw;
+	height: 5vw;
+}
+
+
+
+footer {
+	clear: both;
+	bottom: 0vw;
+	width: 100%;
+	height: 15vw;
+}
+footer div:first-of-type {
+	width: 100%;
+	height: 14vw;
+	margin-top: 30vw;
+	background-color: black;	
+	color: white;
+}
+footer div:first-of-type h3 {
+	font-size: 1.8vw;
+	text-align: center;
+}
+footer div:first-of-type div:first-of-type {
+	margin-left: 42vw;
+	width: 100%;
+	height: 3vw;
+}
+footer div:first-of-type div a {
+	margin-right: 1.3vw;
+}
+footer div:first-of-type p {
+	font-size: 1.5vw;
+	margin-top: 3vw;
+	text-align: center;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|News+Cycle&display=swap');
+
+body {
+	margin: auto;
+	margin-top: 0vw;
+	padding: 0vw;
+	width: 100%;
+	font-family: 'News Cycle', sans-serif;
+}
+header {
+	position: fixed;
+	top: 0vw;
+	width: 100%;
+	height: 10vw;
+	background-color: black;
+	z-index: 7;
+	margin: auto;
+}
+header h1 { 
+	margin-right: 0vw;
+	width: 23vw;
+	margin-top: 3vw;
+	font-size: 3vw;
+	color: white;
+	float: left;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+nav ul {
+	margin-right: 3vw;
+	float: right;
+	font-size: 2.5vw;
+	margin-top: 3vw;
+}
+nav ul li {
+	display: inline-block;
+	font-size: 2vw;
+	margin: 0.5vw;
+	margin-left: 1vw;
+}
+
+
+
+div:first-of-type {
+	float: left;
+	width: 50%;
+	height: 145vw;
+}
+div:first-of-type article {
+	margin-left: 5vw;
+	width: 45vw;
+	height: 90vw;
+}
+div:first-of-type article img {
+	margin-top: 10vw;
+	margin-left: 1vw;
+	width: 40vw;
+	height: 40vw;
+}
+div:first-of-type article h2 {
+	width: 100%;
+	margin-top: 0vw;
+	margin-left: 5vw;
+	font-size: 2.7vw;
+	font-family: 'Dancing Script', cursive;
+}
+div:first-of-type article p {
+	font-size: 1.3vw;
+	margin-top: -1.3vw;
+}
+div:first-of-type article ul {
+	font-size: 1.3vw;
+}
+
+
+div:nth-of-type(2) {
+	margin-top: 7vw;
+	height: 145vw;
+	width: 50%;
+	float: right;
+}
+div:nth-of-type(2) aside {
+	width: 100%;
+	height: 83vw;
+	right: 0vw;
+	margin-top: 5vw;
+}
+div:nth-of-type(2) aside div:first-of-type {
+	position: top;
+	width: 100%;
+	height: 20vw;
+	z-index: 3;
+}
+div:nth-of-type(2) aside div:first-of-type img {
+	width: 7vw; 
+	height: 7.5vw; 
+	margin-left: 23vw;
+}
+div:nth-of-type(2) aside div:first-of-type h2 {
+	width: 100%;
+	margin-left: 19vw;
+	font-size: 1.6vw;
+	margin-top: 1vw;
+}
+div:nth-of-type(2) aside div:first-of-type p {
+	margin-left: 3vw;
+	width: 50vw;
+	font-size: 1.1vw;
+	text-align: center;
+}
+div:nth-of-type(2) aside div:first-of-type p a {
+	color: black;
+	font-size: 1.1vw;
+}
+
+div:nth-of-type(2) aside div:first-of-type hr:first-of-type{
+	width: 40vw;
+	margin-top: 2vw;
+	margin-bottom: 1vw;
+	margin-left: 8.3vw;
+}
+
+div:nth-of-type(2) aside div:nth-of-type(2) {
+	margin-top: 2vw;
+	width: 100%;
+	height: 62vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) h2 {
+	width: 100%;
+	font-size: 1.6vw;
+	margin-left: 16.5vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) p {
+	font-size: 1.2vw;
+	text-align: center;
+	margin-left: 8vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) form:first-of-type {
+	margin-left: 18vw;
+	font-size: 2.5vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) form:first-of-type input {
+	width: 20vw;
+	height: 2vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) form:first-of-type textarea {
+	margin-top: 1vw;
+	width: 20vw;
+	height: 5vw;
+}
+
+div:nth-of-type(2) aside div:nth-of-type(2) hr {
+	margin-bottom: 2.3vw;
+	margin-top: 2.3vw;
+	width: 40vw;
+	margin-left: 8.3vw;
+}
+
+div:nth-of-type(2) aside div:nth-of-type(2) form:nth-of-type(2) h2 {
+	width: 30vw;
+	color: black;
+	font-size: 1.6vw;
+	margin-top: 1.5vw;
+	margin-left: 21vw;
+	margin-bottom: 1.7vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) form:nth-of-type(2) fieldset {
+	margin-left: 13vw;
+	width: 20vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) form:nth-of-type(2) fieldset input {
+	width: 30vw;
+	height: 2vw;
+}
+div:nth-of-type(2) aside div:nth-of-type(2) form:nth-of-type(2) textarea {
+	width: 30vw;
+	height: 5vw;
+}
+
+
+
+footer div:last-of-type {
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	height: 15vw;
+	background-color: black;	
+	color: white;
+}
+footer div:last-of-type h3 {
+	font-size: 1.8vw;
+	text-align: center;
+	margin-top: 1vw;
+}
+footer div:last-of-type div {
+	margin-left: 42vw;
+	width: 100%;
+	height: 3vw;
+}
+footer div:last-of-type div a {
+	margin-right: 1.3vw;
+}
+footer div:last-of-type p {
+	font-size: 1.5vw;
+	margin-top: 2vw;
+	text-align: center;
+	margin-bottom: 1vw;
+}
+
+
+
