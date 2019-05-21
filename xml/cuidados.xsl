@@ -19,7 +19,7 @@
 	<nav>
 		<h1>Todo peces</h1>
 		<ul>
-			<li><a href="../web.html">Inicio</a></li>
+			<li><a href="../index.html">Inicio</a></li>
 			<li><a href="../html/alimentacion.html">Alimentación</a></li>
 			<li><a href="cuidados.xml">Cuidados</a></li>
 			<li><a href="../html/ecomunes.html">Enfermedades comunes</a></li>
