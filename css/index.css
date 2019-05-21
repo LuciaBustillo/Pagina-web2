@@ -50,7 +50,7 @@ audio:first-of-type {
 	position: fixed;
 	top: 1vw;
 	right: 3.5vw;	
-	width: 7vw;
+	width: 12vw;
 	z-index: 10;
 	height: 1.5vw;
 }
